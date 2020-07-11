@@ -1,0 +1,23 @@
+/*la primera vez*/
+git init
+git add .
+git commit -m "first commit"
+git remote add origin url
+git push origin master
+
+
+/*en adelante*/
+git add .
+git commit -m "second commit"
+git push origin master
+
+
+/*clone a repository*/
+git init
+git clone url
+
+/*pull descargar */
+git add .
+git commit -m "pulling my code"
+git pull origin master
+
