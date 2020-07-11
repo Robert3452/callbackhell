@@ -7,7 +7,7 @@ const usuarios = [
 const profesiones = {
     1: "Diseñador/a grafico/a",
     2: "Ingeniero/a de sistemas",
-    3: "Reportero/a"
+    3: "Reportero/"
 }
 
 
