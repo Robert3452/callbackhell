@@ -35,7 +35,9 @@ function getProfesion(idProfesion, callback) {
 }
 
 getUsers(function (error, result) {
-    if (error) throw console.error(error)
+    if (error) {
+        throw console.error(error)
+    }
     getUser(result[0].name, function (error, result) {
         if (error) throw console.error(error)
         var name = result.name
